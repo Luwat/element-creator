@@ -1,0 +1,54 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    text-align: center;
+    background-color: rgb(228, 215, 215);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    height: 540px;
+    margin: 20px 120px;
+}
+.container-flex {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    
+}
+.inputs label {
+    font-weight: 600;
+    font-size: 110%;
+}
+.inputs input, .inputs select {
+    width: 200px;
+    height: 30px;
+    border: 2px #80cfc2 solid;
+    border-radius: 5px;
+    margin: 20px 0px 0px;
+}
+.inputs select {
+    background-color: rgb(34, 31, 31);
+    color: white;
+    font-size: 110%;
+    border-radius: 2px;
+    border: 0px;
+}
+.new {
+    margin: 50px 39%;
+    width: 250px;
+}
+
+button[type= "submit"] {
+    width: 130px;
+    height: 30px;
+    background-color: rgb(2, 73, 2);
+    color: white;
+    border: 0px;
+    border-radius: 2px;
+    font-size: 105%;
+}

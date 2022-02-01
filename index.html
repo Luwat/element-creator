@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Element Creator</title>
+    <style>
+        
+    </style>
+</head>
+<body>
+    <h1>Element Creator</h1>
+    <div class="container">
+        <div class="container-flex">
+            <div class="inputs">
+                <label>Enter Element</label><br/>
+                <select name="select" id="select">
+                    <option value="heading" id="he1">Heading 1</option>
+                    <option value="head" id="h2">Heading 2</option>
+                    <option value="paragraph" id="para">paragraph</option>
+                    <option value="button" id="button">Button</option>
+                </select>
+            </div>
+            <div class="inputs">
+                <label>Enter Colour</label><br>
+                <input type="text" name="colour" id="colour">
+            </div>
+            <div class="inputs">
+                <label>Enter BgColour</label><br>
+                <input type="text" name="bgcolour" id="bgcolour">
+            </div>
+            <div class="inputs">
+                <label>Enter Content</label><br>
+                <input type="text" name="content" id="content">
+            </div>
+        </div>
+        <div>
+            <button type="submit" onclick="create()">Create Element</button>
+        </div>
+        <div id="new" class="new">
+
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
